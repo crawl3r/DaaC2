@@ -146,6 +146,7 @@ func printHelpMainMenu() {
 	table.SetHeader([]string{"Command", "Description"})
 
 	data := [][]string{
+		{"agents", "List all known agents"},
 		{"interact", "Interact with an agent using their UID"},
 		{"help", "Prints ths menu"},
 		{"exit", "Exit and close the DaaC2 server"},
@@ -166,6 +167,7 @@ func printHelpAgentMenu() {
 
 	data := [][]string{
 		{"command", "Specify a system command for the agent to execute"},
+		{"kill", "Kill the target agent"},
 		{"shellcode", "Supply raw shellcode to be injected into the agent"},
 		{"back", "Stop interacting and go back"},
 		{"help", "Prints ths menu"},

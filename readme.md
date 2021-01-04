@@ -19,3 +19,11 @@ Development will be on-going but slow, so feel free to tweet me any comments etc
 Known issues: 
 * shellcode injection doesn't work on Windows (w.i.p)
 * C2 can't be built for Windows (does anyone actually want that?)
+
+### License  
+I'm just a simple skid. Licensing isn't a big issue to me, I post things that I find helpful online in the hope that others can:  
+ A) learn from the code  
+ B) find use with the code or   
+ C) need to just have a laugh at something to make themselves feel better  
+  
+Either way, if this helped you - cool :)  
